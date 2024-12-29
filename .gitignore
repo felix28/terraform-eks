@@ -1,0 +1,35 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variable override files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Generated files by Terraform providers
+.terraform/
+
+# Sensitive data backup files
+*.backup
+
+# Lock file (if you don't want it in your repository, optional)
+.terraform.lock.hcl
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# System-specific files
+Thumbs.db
